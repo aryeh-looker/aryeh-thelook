@@ -26,5 +26,7 @@ view: users_nn {
 }
 
 explore: users_nn {
-  label: "Users NN Model 2"
+  group_label: "Users NN Model 2 group label"
+  view_label: "Users NN Model 2 view label"
+  label: "Users NN Model 2 label"
 }
