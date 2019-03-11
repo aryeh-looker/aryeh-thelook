@@ -1,4 +1,4 @@
-view: events {
+view: events2 {
   sql_table_name: demo_db.events ;;
 
   dimension: id {

@@ -5,4 +5,11 @@ remote_dependency: hello {
   ref: "88bd5e64e4da9878e1103eebd35746dedec490a0"
 }
 
-constant: whatever { value: "xyz" }
+# localization_settings: {
+#   default_locale: en
+#   localization_level: permissive
+# }
+
+constant: foo {
+  value: "lalala"
+}

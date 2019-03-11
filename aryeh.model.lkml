@@ -10,17 +10,9 @@ datagroup: aryeh_default_datagroup {
 
 persist_with: aryeh_default_datagroup
 
-explore: events {
-  label: "@{whatever}"
-
-  join: users {
-    type: left_outer
-    sql_on: ${events.user_id} = ${users.id} ;;
-    relationship: many_to_one
-  }
-}
-
 explore: inventory_items {
+  label: "inventory_items @{foo}"
+
   join: products {
     type: left_outer
     sql_on: ${inventory_items.product_id} = ${products.id} ;;
